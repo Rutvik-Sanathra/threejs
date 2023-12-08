@@ -3,6 +3,7 @@ import Example1 from "./pages/example1";
 import Example2 from "./pages/example2";
 import Home from "./pages/home";
 import Example3 from "./pages/example3";
+import Example4 from "./pages/example4";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
           <Route path="example1" element={<Example1 />} />
           <Route path="example2" element={<Example2 />} />
           <Route path="example3" element={<Example3 />} />
+          <Route path="example4" element={<Example4 />} />
         </Routes>
       </BrowserRouter>
     </>
